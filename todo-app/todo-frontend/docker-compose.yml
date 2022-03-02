@@ -1,0 +1,13 @@
+services:
+  app:
+    image: todo-frontend-prod
+    build:
+      context: . 
+      dockerfile: Dockerfile 
+    volumes:
+      - ./:/usr/src/app 
+    ports:
+      - 3000:3000
+    container_name: todo-frontend
+    environment:
+      REACT_APP_BACKEND_URL: api/

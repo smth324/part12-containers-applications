@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  blog-backend-prod:
+    image: blog-backend-prod
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: blog-backend-prod
+    ports:
+      - 3003:3003
+    depends_on:
+     - "mongo"
+    environment:
+      - SECRET=asd 
+      - PORT=3003
+      - MONGODB_URI=mongodb://the_username:the_password@blog-mongo-prod:27017/the_database
+  mongo:
+    image: mongo:4.4
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    container_name: blog-mongo-prod
+    volumes: 
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./mongo_data:/data/db

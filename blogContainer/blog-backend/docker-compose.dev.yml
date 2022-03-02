@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  blog-back-dev:
+    image: blog-backend-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    container_name: blog-backend
+    ports:
+      - 3004:3004
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - SECRET=asd 
+      - PORT=3004
+      - SKIP_PREFLIGHT_CHECK=true 
+      - MONGODB_URI=mongodb://the_username:the_password@back-mongo:27017/the_database
+  mongo:
+    image: mongo:4.4
+    ports:
+     - 3456:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    container_name: back-mongo
+    volumes: 
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./mongo_data:/data/db

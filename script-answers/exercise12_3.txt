@@ -1,0 +1,241 @@
+Script started on 2022-02-11 18:27:28+08:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="120" LINES="30"]
+[?2004hsh-4.4$ exitd[Kexitdocker container run -it ubuntu bashsh-4.4$ exit[K[1Pasdexitdocker container run -it ubuntu bashsh-4.4$ exit[Kdocker container run -it ubuntu bash                 n             start friendly_moore -i
+[?2004l[6n[6n[m[?25hroot@ee4c89fd1a4c:/# ]0;root@ee4c89fd1a4c: /root@ee4c89fd1a4c:/#[K[1Cnano ^V^?[25l[30;29H[K[?25h[25l[30;27H[K[?25h/user  r/src/app/index.js
+[25l[?2004h[22;0;0t[4l[?7h[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[120C[30m[47m[H  GNU nano 4.8                                     /usr/src/app/index.js[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[52X[30m[47m[52C[ Read 0 lines ][m[K[30m[47m
+^G[m Get Help    [30m[47m^O[m Write Out   [30m[47m^W[m Where Is    [30m[47m^K[m Cut Text    [30m[47m^J[m Justify     [30m[47m^C[m Cur Pos     [30m[47mM-U[m Undo       [30m[47mM-A[m Mark Text  [30m[47m
+^X[m Exit        [30m[47m^R[m Read File   [30m[47m^\[m Replace     [30m[47m^U[m Paste Text  [30m[47m^T[m To Spell    [30m[47m^_[m Go To Line  [30m[47mM-E[m Redo       [30m[47mM-6[m Copy Text  [2;1H[?25h[?25l[30m[47m[H  GNU nano 4.8                                     /usr/src/app/index.js                                      Modified[m
+c[117X[?25honsole.[?25ll[?25hog()[?25l")[?25h[1m[95m""[m)[25l[2;13H")[K[?25h)[K')[1m[95m'[?25l[m[1m[95m'[m)[?25h[25l[1m[95mh'[m)[2;15H[?25h[25l[1m[95m'[m)[K[2;14H[?25h[1C[25l[2;13H')[K[?25h[25lconsole.log([1m[95m''[m)[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[2;15H[?25h[?25l[2;13H')[K[?25h)[K')[1m[95m''[m)[25l[2;13H')[K[?25h)[Kh))[K')h)e)l)ll)o)w))[K)[K)[K)[K)[K)[KH)e)l)ll)[?25lo)[?25hw) )W)o)r)l)d)[25l[1m[95m[2;13H'Hellow World'[m)[?25h)[1C[25l[1m[95m World'[m)[K[2;19H[?25h[1C[1C[1C[1C[1C[1C[1C)
+[25l[2;27H[?25h[?25l[30m[47m[1;53Husr/src/app/index.js[46X[m[2;53H[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X
+[66X[30m[47m
+[ Wrote 1 line ][m[50X[2;27H[?25h[25l[30m[47m[28;1HFile Name to Write: /usr/src/app/index.js[K
+^G[m Get Help[19X[30m[47m[19CM-D[m DOS Format[16X[30m[47m[16CM-A[m Append[20X[30m[47m[20CM-B[m Backup File[K[30m[47m
+^C[m Cancel[21X[30m[47m[21CM-M[m Mac Format[16X[30m[47m[16CM-P[m Prepend[19X[30m[47m[19C^T[m To Files[K[28;42H[?25h[53X[30m[47m[53C[ Cancelled ][m[K[30m[47m
+^G[m Get Help    [30m[47m^O[m Write Out   [30m[47m^W[m Where Is    [30m[47m^K[m Cut Text    [30m[47m^J[m Justify     [30m[47m^C[m Cur Pos     [30m[47mM-B[m Backup File[K[?25l[15C[30m[47m[29;2HG[m Get Help    [30m[47m^O[m Write Out   [30m[47m^W[m Where Is    [30m[47m^K[m Cut Text    [30m[47m^J[m Justify     [30m[47m^C[m Cur Pos     [30m[47mM-U[m Undo       [30m[47mM-A[m Mark Text[30m[47m[30;2HX[m Exit        [30m[47m^R[m Read File   [30m[47m^\[m Replace     [30m[47m^U[m Paste Text  [30m[47m^T[m To Spell    [30m[47m^_[m Go To Line  [30m[47mM-E[m Redo       [30m[47mM-6[m Copy Text[2;27H[?25h[25l[23;0;0t[?2004l[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+root@ee4c89fd1a4c:/# nano /usr/src/app/index.js[K
+[K[?25hroot@ee4c89fd1a4c:/#[K[1Cnano /usr/src/app/index.js
+[25l[?2004h[22;0;0t[4l[?7h[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[120C[30m[47m[H  GNU nano 4.8                                     /usr/src/app/index.js[K[m
+console.log([1m[95m'Hello World'[m)[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[52X[30m[47m[52C[ Read 1 line ][m[K[30m[47m
+^G[m Get Help    [30m[47m^O[m Write Out   [30m[47m^W[m Where Is    [30m[47m^K[m Cut Text    [30m[47m^J[m Justify     [30m[47m^C[m Cur Pos     [30m[47mM-U[m Undo       [30m[47mM-A[m Mark Text  [30m[47m
+^X[m Exit        [30m[47m^R[m Read File   [30m[47m^\[m Replace     [30m[47m^U[m Paste Text  [30m[47m^T[m To Spell    [30m[47m^_[m Go To Line  [30m[47mM-E[m Redo       [30m[47mM-6[m Copy Text  [2;1H[?25h[?25l[23;0;0t[?2004l[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+root@ee4c89fd1a4c:/# nano /usr/src/app/index.js[K
+root@ee4c89fd1a4c:/# nano /usr/src/app/index.js[K
+root@ee4c89fd1a4c:/#[K[1C[?25hexit
+exit
+[?2004hsh-4.4$ exit
+[?2004lexit
+
+Script done on 2022-02-11 18:30:02+08:00 [COMMAND_EXIT_CODE="0"]

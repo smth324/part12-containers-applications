@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  blog-frontend-prod:
+    image: blog-frontend-prod
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: 
+        - REACT_APP_BACKEND_URL=http://localhost:3003
+    container_name: blog-frontend-prod
+    ports:
+      - 3000:3000
